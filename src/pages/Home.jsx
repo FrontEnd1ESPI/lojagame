@@ -2,13 +2,16 @@ import GameCard from "../components/GameCard"
 import JogoImg from "../assets/jogo01.jpg"
 import WarzoneImg from "../assets/warzonegame.jpg"
 import GtaImg from "../assets/gtasix.jpg"
+import MineImg from "../assets/minecraft.jpg"
+import GowImg from "../assets/gow.jpg"
+
 
 const Home = () => {
   const games=[
-    { id: 1, titulo:"Call of Duty® Warzone",preco:"R$400.00",imagem:WarzoneImg},
-    {id:2,titulo:"Grand Theft Auto 6",preco:"R$500.00",imagem:GtaImg},
-    {id:3,titulo:"Jogo 03",preco:"R$350.00",imagem:JogoImg},
-    {id:4,titulo:"Jogo 04",preco:"R$250.00",imagem:JogoImg}
+    { id: 1, titulo:"Call of Duty® Warzone",preco:"R$",imagem:WarzoneImg},
+    {id:2,titulo:"Grand Theft Auto 6",preco:"R$549.90",imagem:GtaImg},
+    {id:3,titulo:"Minecraft",preco:"R$99.90",imagem:MineImg},
+    { id: 4, titulo:"God of War® Ragnarok",preco:"R$249.90",imagem:GowImg}
   ];
   return (
     <main className="px-[5%] mt-10 mb-16 grow">
