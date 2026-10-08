@@ -17,7 +17,6 @@ main{
 }
 .logo:hover{
     letter-spacing: 5px;
-    padding: 20px;
     animation: acender 0.5s forwards;
 }
 .logo span{
@@ -28,4 +27,14 @@ main{
         color:var(--text-color);
         text-shadow: 0 0 10px #32ff32, 0 0 20px #a8dfe1; 
     }
+}
+
+.titulo{
+    background-image: linear-gradient(to right, #95ff00, purple, #95ff00);
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    background-clip:text;
+}
+.titulo:hover{
+    animation: acender 0.5s forwards;
 }
